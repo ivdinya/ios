@@ -1,0 +1,21 @@
+
+var num = 22
+switch num {
+case 10:
+    print(num)
+case 22:
+    print(num)
+}
+
+
+
+var num1 = 30
+switch num1 {
+case num1 > 30:
+    print("число больше 30")
+case num1..40:
+    print(" число находиться в промежутке 30-40")
+
+case num1..<30:
+    print("число меньше 30")
+}
