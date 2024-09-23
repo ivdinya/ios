@@ -11,3 +11,15 @@ var e = 10.0
 var f = e / Double(d)
 print(f)
 // в данном примере, мы используем преоьразование в тип Double
+
+
+//опциональное преобразование
+var dd = "10"
+if let c: Int = Int(d) {
+    print(c + 1)
+} else {
+    print("oh no")
+}
+// явное преобразование
+var ee = 10
+var ff: String = String(ee)
